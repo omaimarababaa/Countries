@@ -26,8 +26,35 @@ myRequest.onload = () => {
       //----Continent----
       let continentCell = row.insertCell();
       continentCell.append(element.gbifRegion);
+     });
+     
+      //------------------------------------------
+      //------invokeValue------------------
+    //   let optionSelect = document.querySelector("#allRegin");
+      
+    //   function onChange() {
+    //     let value = optionSelect.value;
+        
+    //     //console.log(value);
+    //     return value;
+    //   }
+      
+    //   optionSelect.onchange = onChange;
+    //   let regionValue=onChange();
+    //   console.log(regionValue);
+
+    //   let allRegin = element.gbifRegion;
+    //   console.log(allRegin);
+    //   convertJson.forEach((element) => {
+    //     if (value == allRegin) {
+    //       let continentCell = row.insertCell();
+    //       continentCell.append(element.allRegin);
+    //       console.log(allRegin);
+    //     }
+    //   });
+
       //------------------------------------------------------
-    });
+   
   }
 };
 
